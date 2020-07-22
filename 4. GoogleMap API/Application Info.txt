@@ -1,0 +1,10 @@
+google map api를 이용한, 위치 정보 + 위치에 대한 간단 메모 저장 어플리케이션
+
+화면 상단의 2/3는 지도, 하단 1/3은 ListView를 넣어서 화면을 구성합니다.
+지도를 클릭하면 Dialog가 출력되고, Dialog에서 title과 snippet을 입력합니다.
+( https://developer.android.com/guide/topics/ui/dialogs?hl=ko#CustomLayout 참고)
+
+Dialog의 “추가”버튼이 클릭되면, 해당 좌표에 마커를 추가하고 ListView에 추가합니다.
+ListView의 아이템을 클릭하면 해당 마커의 좌표로 이동합니다.
+마커를 클릭하면 Dialog를 이용해서 사용자에게 공유여부를 묻고, 사용자가 동의할경우, 
+KakaoLink를 통해서 title과 snippet을 공유합니다.

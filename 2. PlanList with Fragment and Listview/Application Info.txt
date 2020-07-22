@@ -1,0 +1,2 @@
+첫번째 Fragment에는 ListView를 이용해서 각 학습주차를 표시합니다.
+첫번째 Fragment에 있는 ListView의 항목을 클릭시,두번째 Fragment에서는 그 상세내용을 출력합니다.

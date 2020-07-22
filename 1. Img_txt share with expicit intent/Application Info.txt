@@ -1,0 +1,4 @@
+explicit intent로 이미지와 텍스트를 공유하는 어플리케이션을 작성하세요.
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+등의 permission 추가가 필요합니다.

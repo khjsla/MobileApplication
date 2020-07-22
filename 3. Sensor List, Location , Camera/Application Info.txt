@@ -1,0 +1,15 @@
+1. Sensor List
+안드로이드 스마트폰에서 사용할 수 있는 센서목록(센서이름, Sensor 객체의getName() 이용)을 ListView를 이용해 출력
+accelerometer 예제 구현
+아래 링크를 참조하여 추가로 한 가지 센서로부터 데이터를 받아서 화면에 출력
+https://developer.android.com/guide/topics/sensors/sensors_overview
+  
+2. Location
+Location 센서사용.
+사용 시작시, 사용자에게 Permission에대해서 물어보고 Permission에 대한 허가를 받으시오.
+Log.d 를 사용해서 현재위치를 디버그콘솔에 출력하고,
+현재 위치를 어플리케이션 화면에 출력 (e.g.TextView)
+
+3. Camera
+Camera 사용시 사용자에게 Permission에 대해서 물어보고 Permission에 대한 허가를 받으시오.
+저장된 사진의 이름을 ListView에 표시하고, ListView를 클릭시 해당사진을 화면에 출력하시오
